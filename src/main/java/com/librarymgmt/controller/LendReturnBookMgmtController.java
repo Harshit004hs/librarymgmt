@@ -47,7 +47,7 @@ public class LendReturnBookMgmtController {
             			if(borroweruser.getBookIssue().equals("none"))
             				borroweruser.setBookIssue(book.getTitle());
             			else
-            				 borroweruser.setStatus("You [user id ]"+userid +"have used total limit as only max 2  books can borrowed by per user");
+            				 borroweruser.setStatus("You [user id ]"+userid +"have used total limit of books can be borrowed by per user");
             				
             		}
            });
